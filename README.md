@@ -1,4 +1,4 @@
-Orange3 3D Scatter Plot Add-on / Orange3 3D 散点图插件
+### Orange3 3D Scatter Plot Add-on / Orange3 3D 散点图插件
 
 📸 Screenshots (截图)
 
@@ -17,7 +17,7 @@ $$中文$$
 这是一个为 Orange Data Mining 开发的高级 3D 散点图 插件。
 它弥补了 Orange 原生组件在 3D 可视化方面的空白，支持交互式旋转、缩放、以及数据点选择功能。基于 pyqtgraph 和 OpenGL 开发。
 
-✨ Key Features (核心功能)
+### ✨ Key Features (核心功能)
 
 Interactive 3D View (交互式 3D 视图)
 
@@ -53,7 +53,7 @@ Toggle Grid/Axes/Ticks, switch between Dark/White themes.
 
 开关网格/坐标轴/刻度，支持黑/白两种背景主题切换。
 
-🛠 Prerequisites (依赖环境)
+### 🛠 Prerequisites (依赖环境)
 
 To use this widget, you need (运行本插件需要):
 
@@ -72,9 +72,9 @@ Please launch Orange Command Prompt from your Orange installation directory (or 
 pip install orange3 pyqtgraph PyOpenGL
 
 
-🚀 Installation (安装方法)
+### 🚀 Installation (安装方法)
 
-Method 1: Direct File Drop (Easy) / 方法一：直接拖入（推荐）
+#### Method 1: Direct File Drop (Easy) / 方法一：直接拖入（推荐）
 
 Locate your Orange installation's widget folder. Usually at:
 .../site-packages/Orange/widgets/visualize/
@@ -93,7 +93,7 @@ Restart Orange Canvas.
 Find 3D Scatter Plot in the Visualize category.
 在 Visualize (可视化) 分类中即可找到 3D Scatter Plot 组件。
 
-Method 2: Development Load / 方法二：开发模式加载
+#### Method 2: Development Load / 方法二：开发模式加载
 
 Clone this repository. (克隆本仓库)
 
@@ -102,7 +102,7 @@ Open Orange Canvas. (打开 Orange)
 Right-click on the widget toolbox -> Add Widget... and select the file path. (右键点击组件工具栏 -> Add Widget... -> 选择脚本路径)
 
 
-🎮 Controls (操作说明)
+### 🎮 Controls (操作说明)
 
 Action (操作)
 
@@ -136,12 +136,12 @@ Reset View (重置视角)
 
 Click "Reset Camera View" button (点击界面上的重置按钮)
 
-🤝 Contributing (贡献)
+### 🤝 Contributing (贡献)
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 欢迎提交 Pull Request 改进代码！
 
-📄 License (开源协议)
+### 📄 License (开源协议)
 
 This project is licensed under the MIT License.
 本项目采用 MIT 开源协议。
